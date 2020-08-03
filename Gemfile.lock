@@ -61,6 +61,8 @@ GEM
     ansi (1.5.0)
     autoprefixer-rails (9.8.5)
       execjs
+    bcrypt (3.1.15)
+    bcrypt (3.1.15-java)
     bindex (0.8.1)
     bootsnap (1.4.7)
       msgpack (~> 1.0)
@@ -105,6 +107,7 @@ GEM
     guard-minitest (2.4.6)
       guard-compat (~> 1.2)
       minitest (>= 3.0)
+    hirb (0.7.3)
     i18n (1.8.4)
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.0)
@@ -275,12 +278,14 @@ PLATFORMS
   x86-mswin32
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.2)
   bootstrap-sass
   byebug
   capybara (>= 2.15)
   guard
   guard-minitest
+  hirb
   jbuilder (~> 2.7)
   listen (~> 3.2)
   minitest
